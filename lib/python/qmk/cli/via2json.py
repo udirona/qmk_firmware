@@ -63,7 +63,6 @@ def _fix_macro_keys(keymap_data):
                 keymap_data[i][j] = f'MACRO_{m.group(1)}'
     return keymap_data
 
-
 def _via_to_keymap(via_backup, keyboard_data, keymap_layout):
     # Check if passed LAYOUT is correct
     layout_data = keyboard_data['layouts'].get(keymap_layout)

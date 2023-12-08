@@ -1,5 +1,10 @@
 #pragma once
 
+#define ENCODERS_PAD_A { B12 }
+#define ENCODERS_PAD_B { B13 }
+#define ENCODER_DIRECTION_FLIP
+#define ENCODER_RESOLUTION 4
+
 #ifdef PS2_DRIVER_INTERRUPT
 #define PS2_CLOCK_PIN   B2 
 #define PS2_DATA_PIN    B6 
@@ -21,3 +26,12 @@
 
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
+
+
+#define STATE_ON 1
+#define STATE_OFF 0
+
+//interne LEDs
+#define LAYER_STATE_LED_A B0
+#define LAYER_STATE_LED_B D5
+// #define LAYER_STATE_LED_B F5
