@@ -11,8 +11,8 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 LTO_ENABLE = yes            # Enable optimizations
-ENCODER_ENABLE = yes        # Enable encoder
+# ENCODER_ENABLE = yes        # Enable encoder
 
-# PS2_MOUSE_ENABLE = yes
-# PS2_ENABLE = yes
-# PS2_DRIVER = interrupt 
+PS2_MOUSE_ENABLE = yes
+PS2_ENABLE = yes
+PS2_DRIVER = interrupt 

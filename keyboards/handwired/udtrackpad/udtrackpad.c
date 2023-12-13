@@ -1,7 +1,7 @@
 #include "quantum.h"
 
 //https://github.com/qmk/qmk_firmware/blob/master/docs/feature_led_indicators.md
-// https://docs.qmk.fm/#/feature_layers?id=layer-change-code
+//https://docs.qmk.fm/#/feature_layers?id=layer-change-code
 
 void keyboard_pre_init_user(void) {
     // Call the keyboard pre init code.
