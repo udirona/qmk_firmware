@@ -14,7 +14,7 @@
     },
     "diode_direction": "COL2ROW",
     "processor": "atmega32u4",
-    "bootloader": "halfkay",
+    "bootloader": "caterina",
     "layouts": {
         "LAYOUT": {
             "layout": [
