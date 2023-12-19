@@ -19,3 +19,10 @@
 
 #define LOCKING_SUPPORT_ENABLE
 #define LOCKING_RESYNC_ENABLE
+#define PS2_MOUSE_ROTATE 90
+
+#define PS2_MOUSE_X_MULTIPLIER 3
+#define PS2_MOUSE_Y_MULTIPLIER 3
+#define PS2_MOUSE_V_MULTIPLIER 1
+/* The time to wait after initializing the ps2 host */
+#define PS2_MOUSE_INIT_DELAY 3000 /* Default */
