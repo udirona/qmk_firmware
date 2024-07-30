@@ -4,10 +4,10 @@
 #define LAYER_STATE_LED_A B0
 #define LAYER_STATE_LED_B D5
 
-// #define ENCODERS_PAD_A { B12 }
-// #define ENCODERS_PAD_B { B13 }
+#define ENCODERS_PAD_A { B1 }
+#define ENCODERS_PAD_B { B3 }
 // #define ENCODER_DIRECTION_FLIP
-// #define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 4
 
 #ifdef PS2_DRIVER_INTERRUPT
 #define PS2_CLOCK_PIN   D2
@@ -25,12 +25,12 @@
     #define PS2_INT_VECT   INT2_vect
 #endif
 
-#define PS2_MOUSE_ROTATE 90
-#define PS2_MOUSE_X_MULTIPLIER 3
-#define PS2_MOUSE_Y_MULTIPLIER 3
-#define PS2_MOUSE_V_MULTIPLIER 1
+// #define PS2_MOUSE_ROTATE 90
+// #define PS2_MOUSE_X_MULTIPLIER 3
+// #define PS2_MOUSE_Y_MULTIPLIER 3
+// #define PS2_MOUSE_V_MULTIPLIER 1
 /* The time to wait after initializing the ps2 host */
-#define PS2_MOUSE_INIT_DELAY 3000 /* Default */
+// #define PS2_MOUSE_INIT_DELAY 3000 /* Default */
 
 
 

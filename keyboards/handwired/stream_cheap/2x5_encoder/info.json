@@ -1,8 +1,8 @@
 {
-    "keyboard_name": "udmacropad",
-    "manufacturer": "udirona",
+    "keyboard_name": "2x5 macropad",
+    "manufacturer": "Stream Cheap",
     "url": "",
-    "maintainer": "udirona",
+    "maintainer": "qmk",
     "usb": {
         "vid": "0x7363",
         "pid": "0x1215",
