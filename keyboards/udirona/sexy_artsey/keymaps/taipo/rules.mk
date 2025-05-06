@@ -1,4 +1,0 @@
-ENCODER_MAP_ENABLE = yes
-COMBO_ENABLE = no
-LEADER_ENABLE = no
-SRC += taipo.c
