@@ -15,7 +15,7 @@
         "extrakey": true,
         "nkro": true,
         "oled": false,
-        "mousekey": false,
+        "mousekey": true,
         "encoder": false
     },
     "diode_direction": "COL2ROW",
