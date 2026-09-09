@@ -1,7 +1,7 @@
 {
     "keyboard_name": "QEZ",
     "manufacturer": "handwired",
-    "url": "",
+    "url": "https://github.com/udirona/quack36",
     "maintainer": "udirona",
     "usb": {
         "vid": "0xA68C",

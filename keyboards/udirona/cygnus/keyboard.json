@@ -1,7 +1,7 @@
 {
     "maintainer": "udirona",
     "manufacturer": "handwired",
-    "url": "",
+    "url": "https://github.com/tupinikeebs/cygnus",
     "usb": {
         "vid": "0x4653",
         "suspend_wakeup_delay": 200,
